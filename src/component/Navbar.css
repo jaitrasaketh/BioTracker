@@ -1,0 +1,80 @@
+.navbar {
+  background-color: #2D773F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%; /* Ensure the navbar spans the full width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 40px;
+    position: relative;
+  }
+  
+  .navbar-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-links .dropdown span {
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .navbar-links .dropdown span:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2D773F;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    padding: 5px 10px;
+  }
+  
+  .dropdown-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #1f5a2b;
+  }
+  
