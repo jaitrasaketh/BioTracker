@@ -1,23 +1,80 @@
-.herbarium-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .herbarium-section {
-    width: 100%;
-    height: 1200px;
-    background-color: #B7E8AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .herbarium-section h1 {
-    color: #2A9645;
-    font-size: 48px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-  }
-   
+.herbarium-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.herbarium-content {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 18%;
+  background-color: #d8f3dc;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100%;
+  border-right: 2px solid #40916c;
+}
+
+.sidebar h2 {
+  color: #1b4332;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #74c69d;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.sidebar li:hover {
+  background-color: #52b788;
+  color: white;
+}
+
+/* Plant display section */
+.plant-display {
+  width: 82%;
+  background-color: #b7e8ad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.plant-image {
+  max-width: 60%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.plant-display h1 {
+  color: #2a9645;
+  font-size: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.vhub-image {
+  width: 550px;  /* Adjust size as needed */
+  display: block;
+  margin: 10px auto; /* Centers the image */
+}

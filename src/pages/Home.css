@@ -3,8 +3,6 @@
   flex-direction: column;
 }
 
-/* Part 1: Slider Section */
-/* Slider Section */
 /* Slider Section */
 .slider-section {
   position: relative;
@@ -55,33 +53,58 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-/* Part 2: ABOUT US Section */
-.about-section {
-  height: 600px;
+/* About Us Section */
+.about-section2 {
+  width: 100%;
+  min-height: 100vh;
   background-color: #B7E8AD;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 20px;
 }
 
-.about-section h2 {
+.about-content {
+  max-width: 900px;
+  text-align: justify;
+}
+
+.about-content h1 {
   color: #2A9645;
-  font-size: 24px;
+  font-size: 42px;
   font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 20px;
 }
 
-/* Part 3: AIMS AND OBJECTIVES Section */
-.aims-section {
-  height: 600px;
-  background-color: #55CB8E;
+.about-content p {
+  font-size: 22px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-content ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-content ul li {
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-content ul li strong {
+  color: #2A9645;
+}
+
+/* Button Container */
+.about-button-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.aims-section h2 {
-  color: #D2DC60;
-  font-size: 24px;
-  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 30px;
 }

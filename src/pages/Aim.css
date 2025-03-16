@@ -1,41 +1,82 @@
+/* Global Styles */
 .aim-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  
-  /* Part 1: About Us Section */
-  .aim-section {
-    width: 100%;
-    height: 1200px;
-    background-color: #B7E8AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .aim-section h1 {
-    color: #2A9645;
-    font-size: 48px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-  }
-   
-  /* Part 2: Contact Us Section */
-  .contact-section {
-    width: 100%;
-    height: 600px;
-    background-color: #2D773F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contact-section h1 {
-    color: #FFFFFF;
-    font-size: 48px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Aim and Objectives Section */
+.aim-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #B7E8AD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.aim-content {
+  max-width: 900px;
+  text-align: center;
+}
+
+.aim-content h1 {
+  color: #2A9645;
+  font-size: 42px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.aim-content p {
+  font-size: 22px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.aim-content ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+.aim-content ul li {
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.aim-content ul li strong {
+  color: #2A9645;
+}
+
+/* Contact Us Section */
+.contact-section {
+  width: 100%;
+  min-height: 400px;
+  background-color: #2D773F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact-content h1 {
+  color: #FFFFFF;
+  font-size: 42px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  font-size: 22px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  line-height: 1.6;
+}

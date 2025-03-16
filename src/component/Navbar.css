@@ -78,3 +78,9 @@
     background-color: #1f5a2b;
   }
   
+  .navbar {
+    position: relative;
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+
+  

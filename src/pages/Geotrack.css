@@ -1,24 +1,79 @@
+/* Global Styles */
 .geotrack-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  
-  /* Part 1: About Us Section */
-  .geotrack-section {
-    width: 100%;
-    height: 1200px;
-    background-color: #B7E8AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .geotrack-section h1 {
-    color: #2A9645;
-    font-size: 48px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-  }
-   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Geotracker Section */
+.geotrack-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #B7E8AD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.geotrack-content {
+  max-width: 900px;
+  text-align: center;
+}
+
+.geotrack-content h1 {
+  color: #2A9645;
+  font-size: 42px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.geotrack-content p {
+  font-size: 22px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.geotrack-content ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+.geotrack-content ul li {
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.geotrack-content ul li strong {
+  color: #2A9645;
+}
+
+/* Button Container */
+.geo-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Button Styling */
+.geo-link-button {
+  padding: 12px 24px;
+  background-color: #2A9645;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.geo-link-button:hover {
+  background-color: #1E6D33;
+}
